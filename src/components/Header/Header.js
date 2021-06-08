@@ -16,6 +16,16 @@ const Header = () => {
                 Home
               </a>
             </li>
+            <li className="mx-2 lg:mx-5">
+              <a href="#about" className="lg:text-xl">
+                About
+              </a>
+            </li>
+            <li className="mx-2 lg:mx-5">
+              <a href="#contact" className="lg:text-xl">
+                Contact
+              </a>
+            </li>
             <li>
               <FaSearch className="lg:text-xl" />
             </li>
