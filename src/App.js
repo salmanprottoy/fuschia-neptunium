@@ -1,6 +1,7 @@
 import About from "./components/About/About";
 import About2 from "./components/About2/About2";
 import Articles from "./components/Articles/Articles";
+import Footer from "./components/Footer/Footer";
 import Grid from "./components/Grid/Grid";
 import Header from "./components/Header/Header";
 import Showcase from "./components/Showcase/Showcase";
@@ -14,6 +15,7 @@ function App() {
       <Grid />
       <About2 />
       <Articles />
+      <Footer />
     </>
   );
 }
