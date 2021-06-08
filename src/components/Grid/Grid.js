@@ -1,8 +1,8 @@
 import React from "react";
 import { FiPlayCircle } from "react-icons/fi";
 import { FaArrowRight } from "react-icons/fa";
-import grid1 from "../../assets/grid-1.jpeg";
-import grid2 from "../../assets/grid-2.jpeg";
+import grid1 from "../../assets/grid-1.jpg";
+import grid2 from "../../assets/grid-2.jpg";
 
 const Grid = () => {
   return (
