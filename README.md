@@ -1,4 +1,4 @@
-# Bangla Car
+# Fuschia Neptunium
 
 A React application build using tailwindcss library that can be use as portfolio website.
 
