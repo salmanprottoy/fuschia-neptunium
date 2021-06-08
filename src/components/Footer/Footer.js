@@ -1,10 +1,6 @@
 import React from "react";
-import {
-  GrFacebook,
-  GrPinterest,
-  GrTwitter,
-  GrInstagram,
-} from "react-icons/gr";
+import { FaGithub } from "react-icons/fa";
+import { GrFacebook, GrTwitter, GrInstagram } from "react-icons/gr";
 
 const Footer = () => {
   return (
@@ -23,16 +19,24 @@ const Footer = () => {
 
           <ul className="flex mb-2">
             <li className="mx-2 text-2xl">
-              <GrFacebook />
+              <a href="https://www.facebook.com/salman.prottoy1">
+                <GrFacebook />
+              </a>
             </li>
             <li className="mx-2 text-2xl">
-              <GrTwitter />
+              <a href="https://twitter.com/salman_prottoy">
+                <GrTwitter />
+              </a>
             </li>
             <li className="mx-2 text-2xl">
-              <GrInstagram />
+              <a href="https://www.instagram.com/salman_prottoy">
+                <GrInstagram />
+              </a>
             </li>
             <li className="mx-2 text-2xl">
-              <GrPinterest />
+              <a href="https://github.com/salmanprottoy">
+                <FaGithub />
+              </a>
             </li>
           </ul>
         </div>

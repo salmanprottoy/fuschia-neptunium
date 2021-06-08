@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { articles } from "../../data/articles";
 
 const Articles = () => {
-  const [items, setItems] = React.useState(articles);
+  const [items] = useState(articles);
   return (
     <>
       <div className="pt-5">

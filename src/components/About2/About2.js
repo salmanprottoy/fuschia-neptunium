@@ -30,13 +30,19 @@ const About2 = () => {
           </p>
           <ul className="flex items-center justify-center md:justify-start">
             <li className="mx-5 text-2xl">
-              <GrFacebook />
+              <a href="https://www.facebook.com/salman.prottoy1">
+                <GrFacebook />
+              </a>
             </li>
             <li className="mx-5 text-2xl">
-              <GrTwitter />
+              <a href="https://twitter.com/salman_prottoy">
+                <GrTwitter />
+              </a>
             </li>
             <li className="mx-5 text-2xl">
-              <GrInstagram />
+              <a href="https://www.instagram.com/salman_prottoy">
+                <GrInstagram />
+              </a>
             </li>
           </ul>
         </div>
