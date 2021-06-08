@@ -16,7 +16,10 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col-reverse md:flex-row md:justify-between">
-          <p>&copy; Copyright Fuschia Neptunium, 2021 All Rights Reserved</p>
+          <p>
+            &copy; Copyright Fuschia Neptunium, {new Date().getFullYear()} All
+            Rights Reserved
+          </p>
 
           <ul className="flex mb-2">
             <li className="mx-2 text-2xl">
